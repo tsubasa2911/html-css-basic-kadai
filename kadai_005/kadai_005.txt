@@ -1,0 +1,33 @@
+doctor0319@IwasakinoMacBook-Air ~ % mkdir git_challenge
+doctor0319@IwasakinoMacBook-Air ~ % cd git_challenge
+doctor0319@IwasakinoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/doctor0319/git_challenge/.git/
+doctor0319@IwasakinoMacBook-Air git_challenge % git add hello_world.txt
+doctor0319@IwasakinoMacBook-Air git_challenge % git commit -m "git commit -m "hello_worldを追 加"
+dquote> "
+[main (root-commit) c05cb04] git commit -m hello_worldを追加
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+doctor0319@IwasakinoMacBook-Air git_challenge % git status
+
+On branch main
+nothing to commit, working tree clean
+
+
+ git add .
+doctor0319@IwasakinoMacBook-Air git_challenge % git commit -m "git commit -m "日本語訳を追記"
+"
+[main fbf0cb8] git commit -m 日本語訳を追記
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+doctor0319@IwasakinoMacBook-Air git_challenge % git log                                      
+commit fbf0cb8130947beb2b150628c2eaecf356d51da0 (HEAD -> main)
+Author: tubasa2911 <randoctor11@gmail.com>
+Date:   Sat Sep 7 22:25:44 2024 +0900
+
+    git commit -m 日本語訳を追記
+
+commit c05cb043110a99a41ad1f228ebb0e6a28152346e
+Author: tubasa2911 <randoctor11@gmail.com>
+Date:   Sat Sep 7 22:17:17 2024 +0900
+
+    git commit -m hello_worldを追加
